@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <title>Door Way</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+        <header>
+            <a href="index.html">Find Jobs</a>
+            <a href="post.html">Post Jobs</a>
+            <h1><a href="index.html">Doorway</a></h1>
+          </header>
+
+    <div id="postFormDiv">
+      <form action="postJob.php" method="POST">
+        <label for="">Company Name</label>
+        <input type="text" name="company" value="" required />
+        <br />
+
+        <label for="">Job Title</label>
+        <input type="text" name="title" value="" required />
+        <br />
+        <br />
+
+        <label for="">Job Description</label>
+        <br />
+        <textarea name="description" rows="20" cols="80" required></textarea>
+        <br />
+
+        <label for="">City</label>
+        <input type="text" name="city" value="" required />
+        <br />
+
+        <label for="">State</label>
+        <input type="text" name="state" value="" required />
+        <br />
+
+        <label for="">Zip Code</label>
+        <input type="number" name="zip" value="" required />
+        <br />
+
+        <button type="submit" name="postButton">Post Job</button>
+      </form>
+    </div>
+  </body>
+</html>
